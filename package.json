@@ -1,0 +1,31 @@
+{
+  "name": "blogging-api",
+  "version": "1.0.0",
+  "description": "My Blogging API",
+  "main": "app2.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node app2.js",
+    "dev": "nodemon app2.js",
+    "test": "jest --detectOpenHandles --forceExit"
+  },
+  "author": "Priscilla",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.2",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.1.1"
+  }
+}

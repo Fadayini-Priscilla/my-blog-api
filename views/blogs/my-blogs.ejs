@@ -1,0 +1,20 @@
+<div class="container">
+    <h2>My Blogs</h2>
+    <div class="filter-state-section">
+        <label for="filter-state">Filter by State:</label>
+        <select id="filter-state">
+            <option value="">All</option>
+            <option value="draft">Draft</option>
+            <option value="published">Published</option>
+        </select>
+    </div>
+    <div id="my-blogs-list" class="blog-grid">
+        <!-- User's blogs will be loaded here by JavaScript -->
+        <p>Loading your blogs...</p>
+    </div>
+    <div class="pagination">
+        <button id="my-prev-page" disabled>Previous</button>
+        <span id="my-current-page-info">Page 1 of 1</span>
+        <button id="my-next-page" disabled>Next</button>
+    </div>
+</div>

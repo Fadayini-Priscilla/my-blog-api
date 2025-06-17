@@ -1,0 +1,23 @@
+<div class="container blog-form">
+    <h2>Create New Blog</h2>
+    <form id="create-blog-form">
+        <div class="form-group">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div class="form-group">
+            <label for="description">Description (Optional):</label>
+            <textarea id="description" name="description" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="tags">Tags (comma-separated):</label>
+            <input type="text" id="tags" name="tags">
+        </div>
+        <div class="form-group">
+            <label for="body">Blog Content:</label>
+            <textarea id="body" name="body" rows="15" required></textarea>
+        </div>
+        <button type="submit">Create Blog</button>
+        <p id="create-blog-message" class="message"></p>
+    </form>
+</div>

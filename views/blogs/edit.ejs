@@ -1,0 +1,30 @@
+<div class="container blog-form">
+    <h2>Edit Blog</h2>
+    <form id="edit-blog-form" data-blog-id="<%= blogId %>">
+        <div class="form-group">
+            <label for="edit-title">Title:</label>
+            <input type="text" id="edit-title" name="title" required>
+        </div>
+        <div class="form-group">
+            <label for="edit-description">Description (Optional):</label>
+            <textarea id="edit-description" name="description" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="edit-tags">Tags (comma-separated):</label>
+            <input type="text" id="edit-tags" name="tags">
+        </div>
+        <div class="form-group">
+            <label for="edit-body">Blog Content:</label>
+            <textarea id="edit-body" name="body" rows="15" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="edit-state">State:</label>
+            <select id="edit-state" name="state">
+                <option value="draft">Draft</option>
+                <option value="published">Published</option>
+            </select>
+        </div>
+        <button type="submit">Update Blog</button>
+        <p id="edit-blog-message" class="message"></p>
+    </form>
+</div>
